@@ -1,7 +1,6 @@
 import java.util.Scanner;
 
 public class Main {
-    final int a=i love you;
     public static void main(String[] args) {
 
         /**
