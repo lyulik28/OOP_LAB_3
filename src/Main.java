@@ -3,10 +3,6 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-
-
-
-
         /**
          * Створення одновимірного масиву
          * Розмірність та елементи необхідно ввести
@@ -128,21 +124,21 @@ public class Main {
         for (int j = 0; j < lengthColumn; j++) {
             for (int i = 0; i < lengthRow - 1; i++) {
                 if (matrix[i][j] > matrix[i + 1][j]) {
-                    isGreater=false;
+                    isGreater = false;
                     break;
-                }else{
-                    isGreater=true;
+                } else {
+                    isGreater = true;
                 }
             }
-            if(isGreater){
+            if (isGreater) {
                 arrayOfColumnsIndex[n] = j;
                 n++;
             }
         }
 
         System.out.println("Column numbers with items in ascending order: ");
-        for(int x: arrayOfColumnsIndex){
-            System.out.print(x+"\t");
+        for (int x : arrayOfColumnsIndex) {
+            System.out.print(x + "\t");
         }
 
     }
