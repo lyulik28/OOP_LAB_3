@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    final int a=0;
+    final int a=2;
     public static void main(String[] args) {
 
         /**
