@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 public class Main {
-    final int a=100000000;
+    final int a=1asdfkaksdfdasdfasdiufyasiudyfiausydiuaysadfd00;
     public static void main(String[] args) {
 
         /**
